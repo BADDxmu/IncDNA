@@ -11,9 +11,9 @@ logging.basicConfig(level=logging.DEBUG,
                 datefmt='%a, %d %b %Y %H:%M:%S',
                 filename='./log',
                 filemode='w')
-
+cfg=sys.argv[1]
 __config__ = configparser.ConfigParser()
-__config__.read('run.cfg',encoding="utf-8")
+__config__.read(cfg,encoding="utf-8")
 
 def loggingtime(funcname,starttime):
     logging.info(funcname + ' Time Running %f s' %(time.time()-starttime))
@@ -190,12 +190,12 @@ def CATCombine(IDBABestList):
         if len(heter_prefix_path) !=0 and heter_prefix_path[-1] != '/':
             heter_prefix_path = heter_prefix_path + '/'
         try:
-            # Heterogeneous_data_files = eval(__config__.get('seq data', 'heter_files'))
-            Heterogeneous_data_files = __config__.get('seq data', 'heter_files')
+            Heterogeneous_data_files = eval(__config__.get('seq data', 'heter_files'))
+            #Heterogeneous_data_files = __config__.get('seq data', 'heter_files')
             if Heterogeneous_data_files is None:
                 logging.warning("Run.cfg didn't set heter_files list")
                 is_heterfile = False
-            elif len(eval(Heterogeneous_data_files)) == 0:
+            elif len(Heterogeneous_data_files) == 0:
                 logging.warning("Run.cfg didn't set heter_files list")
                 is_heterfile = False
         except Exception as e:
