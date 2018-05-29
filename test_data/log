@@ -1,0 +1,20 @@
+Tue, 29 May 2018 10:49:14 IncDNA.py[line:19] INFO ChenkFileDirs Time Running 0.000026 s
+Tue, 29 May 2018 10:49:14 IncDNA.py[line:78] INFO Start Running IDBA:
+Tue, 29 May 2018 10:49:31 IncDNA.py[line:69] INFO for ./temp_output/1 we seletced the de novo assemble result when kmer=120 for the biggest N50 we got with this kmer parameter
+Tue, 29 May 2018 10:49:47 IncDNA.py[line:69] INFO for ./temp_output/2 we seletced the de novo assemble result when kmer=120 for the biggest N50 we got with this kmer parameter
+Tue, 29 May 2018 10:50:03 IncDNA.py[line:69] INFO for ./temp_output/3 we seletced the de novo assemble result when kmer=120 for the biggest N50 we got with this kmer parameter
+Tue, 29 May 2018 10:50:03 IncDNA.py[line:142] INFO IDBA Completed
+Tue, 29 May 2018 10:50:03 IncDNA.py[line:19] INFO IDBA Time Running 49.186183 s
+Tue, 29 May 2018 10:50:03 IncDNA.py[line:177] INFO Start Running CAT:
+Tue, 29 May 2018 10:50:03 IncDNA.py[line:188] WARNING Run.cfg didn't set heter_prefix
+Tue, 29 May 2018 10:50:03 IncDNA.py[line:199] WARNING Run.cfg didn't set heter_files list
+Tue, 29 May 2018 10:50:03 IncDNA.py[line:237] INFO CAT Completed
+Tue, 29 May 2018 10:50:03 IncDNA.py[line:19] INFO CAT Time Running 0.007858 s
+Tue, 29 May 2018 10:50:03 IncDNA.py[line:246] INFO Start Runing CD-HIT-EST
+Tue, 29 May 2018 10:50:05 IncDNA.py[line:272] INFO CD-HIT-EST Completed
+Tue, 29 May 2018 10:50:05 IncDNA.py[line:19] INFO CD-HIT-EST Time Running 1.855720 s
+Tue, 29 May 2018 10:50:05 IncDNA.py[line:282] INFO Start Running CAP3:
+Tue, 29 May 2018 10:50:05 IncDNA.py[line:310] INFO CAP3 Completed
+Tue, 29 May 2018 10:50:05 IncDNA.py[line:19] INFO CAP3 Time Running 0.486614 s
+Tue, 29 May 2018 10:50:05 IncDNA.py[line:19] INFO Final Time Running 0.004128 s
+Tue, 29 May 2018 10:50:05 IncDNA.py[line:422] INFO Success!

@@ -1,0 +1,26 @@
+number of threads 16
+reads 350000
+long reads 0
+reads 333198
+long reads 0
+read_length 125
+kmer 115
+kmers 235972 214556
+merge bubble 1
+contigs: 2374 n50: 118 max: 790 mean: 132 total length: 314950 n80: 115
+contigs: 226 n50: 311 max: 1618 mean: 278 total length: 62834 n80: 173
+contigs: 64 n50: 687 max: 1618 mean: 582 total length: 37274 n80: 361
+aligned 72629 reads
+confirmed bases: 34205 correct reads: 43810 bases: 9190
+distance mean 195.775 sd 43.1306
+seed contigs 118 local contigs 452
+kmer 120
+kmers 55180 54842
+merge bubble 0
+contigs: 1395 n50: 123 max: 1761 mean: 154 total length: 215617 n80: 120
+contigs: 128 n50: 741 max: 3890 mean: 471 total length: 60344 n80: 350
+contigs: 70 n50: 1025 max: 3890 mean: 950 total length: 66528 n80: 661
+aligned 80075 reads
+confirmed bases: 41019 correct reads: 58693 bases: 3944
+distance mean 199.046 sd 44.1779
+seed contigs 78 local contigs 256
