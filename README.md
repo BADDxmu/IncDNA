@@ -1,4 +1,4 @@
-## IncDNA ： a pipeline for integrative cDNA library construction
+## InTrans ： a pipeline for integrative transcript library construction
 ### Copyright (C) 2017 ZhiLiang Ji (appo@xmu.edu.cn)
 ## Requirement
 This software is suitable for all unix-like system with python(version 2.7.7) installed.<br>
@@ -13,7 +13,7 @@ stably with the recommended version. <br>
 ## Installation Guide
 Simply installed by extracting the software package
 ## Usage
-In the package folder you extracted, there are three files and one derectory : `"IncDNA.py", "run.cfg", "__init__.py" and "test_data"`<br>
+In the package folder you extracted, there are three files and one derectory : `"InTrans.py", "run.cfg", "__init__.py" and "test_data"`<br>
 (1) "IncDNA.py" is the software `executed file`<br>
 (2) "run.cfg" is the `configure file`, which contains a series of important parameters. For correctly running with your data, you set the right parameter value in "run.cfg" file. `Detail of these parameters is writed in "run.cfg"`, or if you confused, please see the corresponding software manual.
 ### Warnning
@@ -29,14 +29,14 @@ the vaue of 128 to longer one (e.g. 250) in "xx/idba-xxx/src/sequence/short_sequ
 (3) recompile IDBA after modification to make new read length and kmer working <br>
 ## Running
 If individual parameter value had been set in "run.cfg" file, then run the pipeline with: <br>
-$ `python IncDNA.py run.cfg`<br>
+$ `python InTrans.py run.cfg`<br>
 For example, you can make a test running with datas in `"test_data"`:<br>
 (1) run without heterogeneous data, corresponding configure file is `run_fq.cfg`:<br>
 $ `cd ./test_data/`<br>
-$ `python ../IncDNA.py run_fq.cfg` <br>
+$ `python ../InTrans.py run_fq.cfg` <br>
 (2) run with heterogeneous data, corresponding configure file is `run_fq_heterogen.cfg`:<br>
 $ `cd ./test_data/`<br>
-$ `python ../IncDNA.py run_fq_heterogen.cfg` <br>
+$ `python ../InTrans.py run_fq_heterogen.cfg` <br>
 ## Output
 Two folders and one log file were generated after the program runs out: <br>
 (1) "output" folder <br>
